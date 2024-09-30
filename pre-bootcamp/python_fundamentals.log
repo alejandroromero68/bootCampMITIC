@@ -1,0 +1,116 @@
+====================================================================
+1. La lista de ventas original.
+====================================================================
+{'fecha': '2024-01-01', 'producto': 'Televisor', 'cantidad': 2, 'precio': 450.99}
+{'fecha': '2024-01-01', 'producto': 'Reloj inteligente', 'cantidad': 4, 'precio': 199.99}
+{'fecha': '2024-01-01', 'producto': 'Auriculares', 'cantidad': 10, 'precio': 49.99}
+{'fecha': '2024-01-01', 'producto': 'Consola de videojuegos', 'cantidad': 1, 'precio': 400.0}
+{'fecha': '2024-01-02', 'producto': 'Laptop', 'cantidad': 1, 'precio': 1200.5}
+{'fecha': '2024-01-02', 'producto': 'Smartphone', 'cantidad': 5, 'precio': 299.99}
+{'fecha': '2024-01-02', 'producto': 'Cámara', 'cantidad': 1, 'precio': 599.99}
+{'fecha': '2024-01-02', 'producto': 'Monitor', 'cantidad': 3, 'precio': 250.0}
+{'fecha': '2024-01-03', 'producto': 'Smartphone', 'cantidad': 3, 'precio': 699.99}
+{'fecha': '2024-01-03', 'producto': 'Tablet', 'cantidad': 3, 'precio': 199.95}
+{'fecha': '2024-01-03', 'producto': 'Impresora', 'cantidad': 2, 'precio': 150.0}
+{'fecha': '2024-01-03', 'producto': 'Teclado', 'cantidad': 5, 'precio': 49.99}
+{'fecha': '2024-01-04', 'producto': 'Auriculares', 'cantidad': 10, 'precio': 49.99}
+{'fecha': '2024-01-04', 'producto': 'Bicicleta', 'cantidad': 1, 'precio': 350.0}
+{'fecha': '2024-01-04', 'producto': 'Ratón', 'cantidad': 8, 'precio': 25.0}
+{'fecha': '2024-01-04', 'producto': 'Altavoces', 'cantidad': 4, 'precio': 100.0}
+{'fecha': '2024-01-05', 'producto': 'Televisor', 'cantidad': 2, 'precio': 450.99}
+{'fecha': '2024-01-05', 'producto': 'Proyector', 'cantidad': 1, 'precio': 800.0}
+{'fecha': '2024-01-05', 'producto': 'Estabilizador', 'cantidad': 2, 'precio': 120.0}
+{'fecha': '2024-01-06', 'producto': 'Mochila para laptop', 'cantidad': 3, 'precio': 40.0}
+{'fecha': '2024-01-06', 'producto': 'Laptop', 'cantidad': 1, 'precio': 1200.5}
+{'fecha': '2024-01-06', 'producto': 'Smartwatch', 'cantidad': 2, 'precio': 150.0}
+{'fecha': '2024-01-07', 'producto': 'Cámara', 'cantidad': 1, 'precio': 599.99}
+{'fecha': '2024-01-07', 'producto': 'Altavoces', 'cantidad': 4, 'precio': 100.0}
+{'fecha': '2024-01-07', 'producto': 'Bicicleta', 'cantidad': 1, 'precio': 350.0}
+{'fecha': '2024-01-07', 'producto': 'Ratón', 'cantidad': 8, 'precio': 25.0}
+{'fecha': '2024-01-08', 'producto': 'Teclado', 'cantidad': 5, 'precio': 49.99}
+{'fecha': '2024-01-08', 'producto': 'Smartphone', 'cantidad': 3, 'precio': 699.99}
+{'fecha': '2024-01-08', 'producto': 'Televisor', 'cantidad': 2, 'precio': 450.99}
+{'fecha': '2024-01-12', 'producto': 'Laptop', 'cantidad': 1, 'precio': 1200.5}
+{'fecha': '2024-01-12', 'producto': 'Smartphone', 'cantidad': 15, 'precio': 299.99}
+{'fecha': '2024-01-12', 'producto': 'Cámara', 'cantidad': 11, 'precio': 599.99}
+{'fecha': '2024-01-12', 'producto': 'Monitor', 'cantidad': 13, 'precio': 250.0}
+{'fecha': '2024-01-13', 'producto': 'Smartphone', 'cantidad': 13, 'precio': 699.99}
+{'fecha': '2024-01-23', 'producto': 'Tablet', 'cantidad': 13, 'precio': 199.95}
+{'fecha': '2024-01-23', 'producto': 'Impresora', 'cantidad': 12, 'precio': 150.0}
+{'fecha': '2024-01-23', 'producto': 'Teclado', 'cantidad': 15, 'precio': 49.99}
+{'fecha': '2024-01-24', 'producto': 'Auriculares', 'cantidad': 5, 'precio': 49.99}
+{'fecha': '2024-01-14', 'producto': 'Bicicleta', 'cantidad': 4, 'precio': 350.0}
+{'fecha': '2024-01-14', 'producto': 'Ratón', 'cantidad': 3, 'precio': 25.0}
+{'fecha': '2024-01-14', 'producto': 'Altavoces', 'cantidad': 7, 'precio': 100.0}
+
+====================================================================
+2. Los ingresos totales generados.
+====================================================================
+Los ingresos totales generados por todas las ventas son: $51940.58
+
+====================================================================
+3. El producto más vendido y su cantidad total vendida.
+====================================================================
+El producto más vendido es 'Smartphone' con una cantidad total de 39.
+
+====================================================================
+4. El precio promedio de venta por producto.
+====================================================================
+El precio promedio de 'Televisor' es: 450.99
+El precio promedio de 'Reloj inteligente' es: 199.99
+El precio promedio de 'Auriculares' es: 49.99
+El precio promedio de 'Consola de videojuegos' es: 400.00
+El precio promedio de 'Laptop' es: 1200.50
+El precio promedio de 'Smartphone' es: 494.86
+El precio promedio de 'Cámara' es: 599.99
+El precio promedio de 'Monitor' es: 250.00
+El precio promedio de 'Tablet' es: 199.95
+El precio promedio de 'Impresora' es: 150.00
+El precio promedio de 'Teclado' es: 49.99
+El precio promedio de 'Bicicleta' es: 350.00
+El precio promedio de 'Ratón' es: 25.00
+El precio promedio de 'Altavoces' es: 100.00
+El precio promedio de 'Proyector' es: 800.00
+El precio promedio de 'Estabilizador' es: 120.00
+El precio promedio de 'Mochila para laptop' es: 40.00
+El precio promedio de 'Smartwatch' es: 150.00
+
+====================================================================
+5. Los ingresos totales por día.
+====================================================================
+Ingresos del día 2024-01-01: 2601.84
+Ingresos del día 2024-01-02: 4050.44
+Ingresos del día 2024-01-03: 3249.77
+Ingresos del día 2024-01-04: 1449.90
+Ingresos del día 2024-01-05: 1941.98
+Ingresos del día 2024-01-06: 1620.50
+Ingresos del día 2024-01-07: 1549.99
+Ingresos del día 2024-01-08: 3251.90
+Ingresos del día 2024-01-12: 15550.24
+Ingresos del día 2024-01-13: 9099.87
+Ingresos del día 2024-01-23: 5149.20
+Ingresos del día 2024-01-24: 249.95
+Ingresos del día 2024-01-14: 2175.00
+
+====================================================================
+6. El resumen de ventas por producto.
+====================================================================
+Producto 	 Cantidad Total 	Ingresos Totales 	Precio Promedio
+Televisor	6	2705.94	450.99
+Reloj inteligente	4	799.96	199.99
+Auriculares	25	1249.75	49.99
+Consola de videojuegos	1	400.0	400.00
+Laptop	3	3601.5	1200.50
+Smartphone	39	19299.61	494.86
+Cámara	13	7799.870000000001	599.99
+Monitor	16	4000.0	250.00
+Tablet	16	3199.2	199.95
+Impresora	14	2100.0	150.00
+Teclado	25	1249.75	49.99
+Bicicleta	6	2100.0	350.00
+Ratón	19	475.0	25.00
+Altavoces	15	1500.0	100.00
+Proyector	1	800.0	800.00
+Estabilizador	2	240.0	120.00
+Mochila para laptop	3	120.0	40.00
+Smartwatch	2	300.0	150.00
