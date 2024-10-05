@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_65b0fbacd4da2e913030c1edf202eb5a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_65b0fbacd4da2e913030c1edf202eb5a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_65b0fbacd4da2e913030c1edf202eb5a = L.map(
+                "map_65b0fbacd4da2e913030c1edf202eb5a",
+                {
+                    center: [-25.2637, -57.5759],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_36b9838f4275c7edd9e7bc63df0acd14 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_36b9838f4275c7edd9e7bc63df0acd14.addTo(map_65b0fbacd4da2e913030c1edf202eb5a);
+        
+    
+            var marker_595c9b441a3ef3960cf9c0d81814844e = L.marker(
+                [-25.2637, -57.5759],
+                {}
+            ).addTo(map_65b0fbacd4da2e913030c1edf202eb5a);
+        
+    
+            var icon_426d2ab202bc750c68b8885cf26b7c3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_595c9b441a3ef3960cf9c0d81814844e.setIcon(icon_426d2ab202bc750c68b8885cf26b7c3c);
+        
+    
+        var popup_36b2382f9c62a8889bc2eca2967c9868 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c35d6d53fc8524ed0c009bad74e5d05 = $(`<div id="html_0c35d6d53fc8524ed0c009bad74e5d05" style="width: 100.0%; height: 100.0%;">Centro de Asunción</div>`)[0];
+                popup_36b2382f9c62a8889bc2eca2967c9868.setContent(html_0c35d6d53fc8524ed0c009bad74e5d05);
+            
+        
+
+        marker_595c9b441a3ef3960cf9c0d81814844e.bindPopup(popup_36b2382f9c62a8889bc2eca2967c9868)
+        ;
+
+        
+    
+    
+            var marker_28f086573ed4a8a2642df5b8f695252a = L.marker(
+                [-25.2949, -57.6483],
+                {}
+            ).addTo(map_65b0fbacd4da2e913030c1edf202eb5a);
+        
+    
+            var icon_ae57f87e5f569d02d534e210a3b3bf6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_28f086573ed4a8a2642df5b8f695252a.setIcon(icon_ae57f87e5f569d02d534e210a3b3bf6a);
+        
+    
+        var popup_eb4bbfda38093a529d67c1955d44ac22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f635ff11c40d2dcce704640c200fd841 = $(`<div id="html_f635ff11c40d2dcce704640c200fd841" style="width: 100.0%; height: 100.0%;">Costanera de Asunción</div>`)[0];
+                popup_eb4bbfda38093a529d67c1955d44ac22.setContent(html_f635ff11c40d2dcce704640c200fd841);
+            
+        
+
+        marker_28f086573ed4a8a2642df5b8f695252a.bindPopup(popup_eb4bbfda38093a529d67c1955d44ac22)
+        ;
+
+        
+    
+    
+            var marker_756dd65eaaf5401648b1984f5e1c78be = L.marker(
+                [-25.2764, -57.5753],
+                {}
+            ).addTo(map_65b0fbacd4da2e913030c1edf202eb5a);
+        
+    
+            var icon_8305d985c0c2494b5c84fae31ad802ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_756dd65eaaf5401648b1984f5e1c78be.setIcon(icon_8305d985c0c2494b5c84fae31ad802ff);
+        
+    
+        var popup_f6a35edf8ea341e51db9e42d7b3d53b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30e767e13bfcbb543cdac48437da4799 = $(`<div id="html_30e767e13bfcbb543cdac48437da4799" style="width: 100.0%; height: 100.0%;">Parque Ñu Guasu</div>`)[0];
+                popup_f6a35edf8ea341e51db9e42d7b3d53b6.setContent(html_30e767e13bfcbb543cdac48437da4799);
+            
+        
+
+        marker_756dd65eaaf5401648b1984f5e1c78be.bindPopup(popup_f6a35edf8ea341e51db9e42d7b3d53b6)
+        ;
+
+        
+    
+    
+            var poly_line_5f440ab8d82feaeaeec28254d964e668 = L.polyline(
+                [[-25.2637, -57.5759], [-25.2949, -57.6483], [-25.2764, -57.5753]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_65b0fbacd4da2e913030c1edf202eb5a);
+        
+</script>
+</html>
